@@ -1,0 +1,28 @@
+.fa-bolt {
+    left: 45%;
+    top: 22px;
+}
+
+.fa-rupee {
+    left: 37%;
+    top: 12px;
+}
+
+.category-card {
+    height: 100px;
+}
+
+.wifi-icon {
+    left: 24%;
+    top: -8px;
+}
+.hotstar-logo{
+    border-radius: 50%;
+    height: 60px;
+    width: 50%;
+    max-width: 60px !important;
+    object-fit: cover;
+}
+.footer-img{
+    max-width:25%;
+}

@@ -1,0 +1,34 @@
+/* src/components/BannerPage.css */
+/* ../assets/images/Google-Pay-Banner.png */
+.banner-container {
+    background-image: url('../../../public/assets/images/Google-Pay-Banner.png');
+    background-size: cover;
+    /* background-position: bottom; */
+    width: 100%;
+    padding: 15px 0px;
+    height: 265px !important;
+    position: relative;
+}
+
+.banner-content {
+    width: 90%;
+    z-index: 2;
+    padding: 15px;
+}
+
+.banner-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    z-index: 1;
+}
+
+@media(max-width:425px) {
+    .banner-container {
+        height: 200px;
+    }
+}

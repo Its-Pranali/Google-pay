@@ -1,0 +1,21 @@
+.bill-img {
+    max-width: 45px;
+    height: 45px;
+    object-fit: contain;
+    border: 1px solid #00000021;
+    border-radius: 50%;
+}
+
+.rupiee-icon {
+    left: 19px;
+    top: 18px;
+}
+
+.battery-icon {
+    left: 23px;
+    top: 19px;
+}
+
+.bill-icon {
+    border-radius: 50% !important;
+}

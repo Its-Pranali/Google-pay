@@ -1,0 +1,19 @@
+.prepaid-logo {
+    max-width: 35px;
+    height: 35px;
+    border: 1px solid #5555556b;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.prepaid-letter{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    color: #555;
+    font-weight: bold;
+}
+.recharge-btn{
+    background-color:#7eb5d7;
+}

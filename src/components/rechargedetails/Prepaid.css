@@ -1,0 +1,18 @@
+.banner-pre-logo {
+    max-width: 50px;
+    height: 50px;
+    border: 1px solid #0000004f;
+    border-radius: 50%;
+    object-fit: contain;
+
+}
+.hr-line{
+    width:100%;
+    max-width:30%;
+    margin: auto;
+}
+.hr-line-new{
+    width:100%;
+    max-width:97%;
+    margin: auto;
+}
