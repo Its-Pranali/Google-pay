@@ -7,7 +7,6 @@ function LinkedAccount() {
                 <div className="row">
                     <h2 className="pt-3" style={{ fontSize: '16px' }}>Linked accounts</h2>
                 </div>
-
                 <div className="d-flex py-2 align-items-center justify-content-between">
                     <div className="d-flex align-items-center">
                         <div class="position-relative">
@@ -20,14 +19,12 @@ function LinkedAccount() {
                         </div>
                     </div>
                     <div>
-                        <a href="" className="btn tect-decoration-none rounded-pill border text-primary px-3" style={{ fontSize: '12px' }}>₹540</a>
+                        <a href="" className="btn text-decoration-none rounded-pill border text-primary px-3" style={{ fontSize: '12px' }}>₹540</a>
                     </div>
-
                 </div>
             </div>
             <hr />
         </div>
-
     );
 }
 

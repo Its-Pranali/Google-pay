@@ -1,0 +1,13 @@
+.popular-icon{
+    max-width: 20%;
+    border:1px solid #c3b4b4;
+    object-fit: contain;
+    height:20%;
+    padding:1px;
+}
+
+@media(max-width:767px){
+    .popular-icon{
+    max-width: 25%;
+}
+}

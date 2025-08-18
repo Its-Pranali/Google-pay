@@ -20,6 +20,7 @@ import './App.css';
 import Electricity from './components/electricity/Electricity';
 import QrScann from './components/home/QrScann';
 import DTHFile from './components/cable/DTHFile';
+import Fastag from './components/fastag/Fastag';
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
           <Route path="/electricity" element={<Electricity />} />
           <Route path="/qr-scann" element={<QrScann />} />
           <Route path="/dth-file" element={<DTHFile />} />
+          <Route path="/fastag" element={<Fastag />} />
         </Routes>
       </div>
     </Router>
