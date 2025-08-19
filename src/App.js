@@ -22,6 +22,7 @@ import QrScann from './components/home/QrScann';
 import DTHFile from './components/cable/DTHFile';
 import Fastag from './components/fastag/Fastag';
 import GooglePlay from './components/googleplay/GooglePlay';
+import CreditCards from './components/creditcards/CreditCards';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/dth-file" element={<DTHFile />} />
           <Route path="/fastag" element={<Fastag />} />
           <Route path="/google-play" element={<GooglePlay />} />
+          <Route path="/credit-cards" element={<CreditCards />} />
         </Routes>
       </div>
     </Router>
