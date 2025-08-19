@@ -6,7 +6,7 @@ import FasttagBanks from "./FasttagBanks";
 
 function Fastag() {
     return (
-        <div className="container">
+        <div className="">
             <FastagHeader/>
             <Biller />
             <FastagTitle />

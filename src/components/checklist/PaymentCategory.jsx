@@ -76,12 +76,14 @@ function PaymentCategory() {
 
                 </div>
                 <div className="col-4">
-                    <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
-                        <div className="text-center position-relative">
-                            <FaGooglePlay aria-label="Google Play" className="text-primary pb-2" size={30} />
+                    <Link to="/google-play" className="text-decoration-none text-dark">
+                        <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
+                            <div className="text-center position-relative">
+                                <FaGooglePlay aria-label="Google Play" className="text-primary pb-2" size={30} />
+                            </div>
+                            <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Google Play</p>
                         </div>
-                        <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Google Play</p>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="col-4">

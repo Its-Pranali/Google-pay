@@ -21,7 +21,7 @@ import Electricity from './components/electricity/Electricity';
 import QrScann from './components/home/QrScann';
 import DTHFile from './components/cable/DTHFile';
 import Fastag from './components/fastag/Fastag';
-
+import GooglePlay from './components/googleplay/GooglePlay';
 
 function App() {
   return (
@@ -51,6 +51,7 @@ function App() {
           <Route path="/qr-scann" element={<QrScann />} />
           <Route path="/dth-file" element={<DTHFile />} />
           <Route path="/fastag" element={<Fastag />} />
+          <Route path="/google-play" element={<GooglePlay />} />
         </Routes>
       </div>
     </Router>
