@@ -101,12 +101,14 @@ function PaymentCategory() {
 
             <div className="row py-2">
                 <div className="col-4">
-                    <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
-                        <div className="text-center ">
-                            <GasCylinderIcon size={40} className="text-primary" />
+                    <Link to="/gas-booking" className="text-decoration-none text-dark">
+                        <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
+                            <div className="text-center ">
+                                <GasCylinderIcon size={40} className="text-primary" />
+                            </div>
+                            <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Gas cylinder booking</p>
                         </div>
-                        <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Gas cylinder booking</p>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="col-4">

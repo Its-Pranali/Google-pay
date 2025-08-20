@@ -23,6 +23,7 @@ import DTHFile from './components/cable/DTHFile';
 import Fastag from './components/fastag/Fastag';
 import GooglePlay from './components/googleplay/GooglePlay';
 import CreditCards from './components/creditcards/CreditCards';
+import GasBooking from './components/gasbooking/GasBooking';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           <Route path="/fastag" element={<Fastag />} />
           <Route path="/google-play" element={<GooglePlay />} />
           <Route path="/credit-cards" element={<CreditCards />} />
+          <Route path="/gas-booking" element={<GasBooking />} />
         </Routes>
       </div>
     </Router>
