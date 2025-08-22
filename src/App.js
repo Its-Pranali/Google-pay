@@ -24,6 +24,7 @@ import Fastag from './components/fastag/Fastag';
 import GooglePlay from './components/googleplay/GooglePlay';
 import CreditCards from './components/creditcards/CreditCards';
 import GasBooking from './components/gasbooking/GasBooking';
+import Broadband from './components/broadband/Broadband';
 
 function App() {
   return (
@@ -44,7 +45,7 @@ function App() {
           <Route path="/airtel" element={<Airtel />} />
           <Route path="/unlink-phonenumber" element={<UnlinkNumber />} />
           <Route path="/jio" element={<Jio />} />
-          <Route path="/recharge" element={<Recharge />} /> 
+          <Route path="/recharge" element={<Recharge />} />
           <Route path="/airtel-prepaid" element={<AirtelPrepaid />} />
           <Route path="/manage" element={<Manage />} />
           <Route path="/mahavitran" element={<Mahavitran />} />
@@ -56,6 +57,7 @@ function App() {
           <Route path="/google-play" element={<GooglePlay />} />
           <Route path="/credit-cards" element={<CreditCards />} />
           <Route path="/gas-booking" element={<GasBooking />} />
+          <Route path="/broadband" element={<Broadband />} />
         </Routes>
       </div>
     </Router>

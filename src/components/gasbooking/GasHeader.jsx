@@ -8,9 +8,11 @@ import { useNavigate } from 'react-router-dom';
 import { FaUserCircle, FaSearch } from 'react-icons/fa';
 import '../home/Header.css';
 
-function DthHeader() {
+function GasHeader() {
     const placeholders = [
-        'Search DTH service providers',
+        'Search FASTag banks',
+
+
     ];
 
     const [placeholderIndex, setPlaceholderIndex] = useState(0);
@@ -61,6 +63,7 @@ function DthHeader() {
                         <span
                             key={fadeKey}
                             className="custom-placeholder"
+                            style={{ fontSize: '15px' }}
                         >
                             {placeholders[placeholderIndex]}
                         </span>
@@ -79,4 +82,4 @@ function DthHeader() {
     );
 }
 
-export default DthHeader;
+export default GasHeader;

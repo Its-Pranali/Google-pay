@@ -31,7 +31,6 @@ function PaymentCategory() {
                             <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Mobile recharge</p>
                         </div>
                     </Link>
-
                 </div>
 
                 <div className="col-4">
@@ -43,7 +42,6 @@ function PaymentCategory() {
                             <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Electricity</p>
                         </div>
                     </Link>
-
                 </div>
 
                 <div className="col-4">
@@ -55,7 +53,6 @@ function PaymentCategory() {
                             <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>DTH / Cable TV</p>
                         </div>
                     </Link>
-
                 </div>
             </div>
 
@@ -65,15 +62,11 @@ function PaymentCategory() {
                         <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
                             <div className="text-center position-relative">
                                 <FaCar className="text-primary" size={30} />
-
                                 <FiWifi className="text-primary wifi-icon position-absolute" aria-label="wifi" />
-
-
                             </div>
                             <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>FASTag recharge</p>
                         </div>
                     </Link>
-
                 </div>
                 <div className="col-4">
                     <Link to="/google-play" className="text-decoration-none text-dark">
@@ -95,7 +88,6 @@ function PaymentCategory() {
                             <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Credit cards</p>
                         </div>
                     </Link>
-
                 </div>
             </div>
 
@@ -112,12 +104,14 @@ function PaymentCategory() {
                 </div>
 
                 <div className="col-4">
-                    <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
-                        <div className="text-center ">
-                            <MdRouter size={40} className="text-primary mb-2" />
+                    <Link to="/broadband" className="text-decoration-none text-dark">
+                        <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
+                            <div className="text-center ">
+                                <MdRouter size={40} className="text-primary mb-2" />
+                            </div>
+                            <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Broadband / Landline</p>
                         </div>
-                        <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Broadband / Landline</p>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="col-4">
