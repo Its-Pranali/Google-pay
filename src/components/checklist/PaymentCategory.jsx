@@ -115,13 +115,15 @@ function PaymentCategory() {
                 </div>
 
                 <div className="col-4">
-                    <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
-                        <div className="position-relative text-center">
-                            <RiSmartphoneLine size={40} className="text-primary mb-2" />
-                            <FaRupeeSign size={13} className="position-absolute text-primary fa-rupee" />
+                    <Link to="/mobile-postpaid" className="text-decoration-none text-dark">
+                        <div className="position-relative category-card card shadow border-0 px-3 py-2 d-flex justify-content-center align-items-center">
+                            <div className="position-relative text-center">
+                                <RiSmartphoneLine size={40} className="text-primary mb-2" />
+                                <FaRupeeSign size={13} className="position-absolute text-primary fa-rupee" />
+                            </div>
+                            <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Postpaid mobile</p>
                         </div>
-                        <p className="text-center mb-0 fw-bold" style={{ fontSize: '12px', lineHeight: '14px' }}>Postpaid mobile</p>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>

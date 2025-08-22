@@ -25,6 +25,7 @@ import GooglePlay from './components/googleplay/GooglePlay';
 import CreditCards from './components/creditcards/CreditCards';
 import GasBooking from './components/gasbooking/GasBooking';
 import Broadband from './components/broadband/Broadband';
+import MobilePostpaid from './components/mobilepostpaid/MobilePostpaid';
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
           <Route path="/credit-cards" element={<CreditCards />} />
           <Route path="/gas-booking" element={<GasBooking />} />
           <Route path="/broadband" element={<Broadband />} />
+          <Route path="/mobile-postpaid" element={<MobilePostpaid />} />
         </Routes>
       </div>
     </Router>
