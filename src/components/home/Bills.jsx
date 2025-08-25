@@ -64,22 +64,28 @@ function Bills() {
 
                 </div>
                 <div className="icon-box text-center col-3">
-                    {/* <img src="assets/images/Jio.png" className="bill-img mb-2 w-100" /> */}
-                    <MdCreditCard size={40} className="text-muted sc-icon bill-icon mb-2" />
-                    <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Credit cards<br /></p>
+                    <Link to="/credit-cards" className="text-decoration-none text-dark">
+                        {/* <img src="assets/images/Jio.png" className="bill-img mb-2 w-100" /> */}
+                        <MdCreditCard size={40} className="text-muted sc-icon bill-icon mb-2" />
+                        <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Credit cards<br /></p>
+                    </Link>
                 </div>
                 <div className="icon-box text-center col-3">
-                    {/* <img src="assets/images/vi.png" className="bill-img mb-2 w-100" /> */}
-                    <div className="position-relative">
-                        <RiSmartphoneLine size={40} className="text-muted bill-icon sc-icon mb-2" />
-                        <FaRupeeSign size={13} className="position-absolute text-muted rupiee-icon" />
-                    </div>
-                    <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Postpaid <br />mobile</p>
+                    <Link to="/mobile-postpaid" className="text-decoration-none text-dark">
+                        {/* <img src="assets/images/vi.png" className="bill-img mb-2 w-100" /> */}
+                        <div className="position-relative">
+                            <RiSmartphoneLine size={40} className="text-muted bill-icon sc-icon mb-2" />
+                            <FaRupeeSign size={13} className="position-absolute text-muted rupiee-icon" />
+                        </div>
+                        <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Postpaid <br />mobile</p>
+                    </Link>
                 </div>
                 <div className="icon-box text-center col-3">
-                    {/* <img src="assets/images/Light-bill.jpg" className="bill-img mb-2 w-100" /> */}
-                    <MdRouter size={40} className="text-muted sc-icon bill-icon mb-2" />
-                    <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Broadband/ <br />Landline</p>
+                    <Link to="/broadband" className="text-decoration-none text-dark">
+                        {/* <img src="assets/images/Light-bill.jpg" className="bill-img mb-2 w-100" /> */}
+                        <MdRouter size={40} className="text-muted sc-icon bill-icon mb-2" />
+                        <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Broadband/ <br />Landline</p>
+                    </Link>
                 </div>
             </div>
         </div>

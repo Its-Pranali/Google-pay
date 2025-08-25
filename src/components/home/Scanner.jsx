@@ -26,8 +26,10 @@ function Scanner() {
 
 
                 <div className="icon-box text-center col-3">
-                    <FaUserFriends size={40} className="text-primary sc-icon mb-2" />
-                    <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Pay <br />anyone</p>
+                    <Link to="/pay-contacts" className="text-decoration-none text-dark">
+                        <FaUserFriends size={40} className="text-primary sc-icon mb-2" />
+                        <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Pay <br />anyone</p>
+                    </Link>
                 </div>
                 <div className="icon-box text-center col-3">
                     <FaUniversity size={40} className="text-primary sc-icon mb-2" />

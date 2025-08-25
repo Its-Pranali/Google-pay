@@ -26,6 +26,7 @@ import CreditCards from './components/creditcards/CreditCards';
 import GasBooking from './components/gasbooking/GasBooking';
 import Broadband from './components/broadband/Broadband';
 import MobilePostpaid from './components/mobilepostpaid/MobilePostpaid';
+import PayContacts from './components/paycontacts/PayContacts';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
           <Route path="/gas-booking" element={<GasBooking />} />
           <Route path="/broadband" element={<Broadband />} />
           <Route path="/mobile-postpaid" element={<MobilePostpaid />} />
+          <Route path="/pay-contacts" element={<PayContacts />} />
         </Routes>
       </div>
     </Router>
