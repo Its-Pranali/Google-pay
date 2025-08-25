@@ -6,7 +6,7 @@ function MakeRecharge() {
     return (
         <div className="container pt-3">
             <h3 className="mb-0" style={{ fontSize: '14px' }}>Make a recharge</h3>
-            <form>
+            <form className="amount-forms">
                 <div className="input-container">
                     <label htmlFor="amount">Enter Amount</label>
                     <input

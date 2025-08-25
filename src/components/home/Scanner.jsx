@@ -32,8 +32,10 @@ function Scanner() {
                     </Link>
                 </div>
                 <div className="icon-box text-center col-3">
-                    <FaUniversity size={40} className="text-primary sc-icon mb-2" />
-                    <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Bank<br /> transfer</p>
+                    <Link to="/bank-transfer" className="text-decoration-none text-dark">
+                        <FaUniversity size={40} className="text-primary sc-icon mb-2" />
+                        <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Bank<br /> transfer</p>
+                    </Link>
                 </div>
                 <div className="icon-box text-center col-3">
                     <Link to="/mobile-recharge" className="text-decoration-none text-dark">

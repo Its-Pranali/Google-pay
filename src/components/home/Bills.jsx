@@ -15,7 +15,6 @@ function Bills() {
                     <Link to="/manage" className="text-decoration-none text-dark">
                         <a href="#" className=" text-decoration-none" style={{ fontSize: '12px' }}>Manage <HiChevronRight className=" text-primary" size={16} /></a>
                     </Link>
-
                 </div>
             </div>
 
@@ -26,14 +25,12 @@ function Bills() {
 
                         <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Airtel<br />Prepaid</p>
                     </Link>
-
                 </div>
                 <div className="icon-box text-center col-3">
                     <Link to="/jio" className="text-decoration-none text-dark">
                         <img src="assets/images/Jio.png" className="bill-img mb-2 w-100" />
                         <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Jio <br />Prepaid</p>
                     </Link>
-
                 </div>
                 <div className="icon-box text-center col-3">
                     <img src="assets/images/vi.png" className="bill-img mb-2 w-100" />
@@ -44,12 +41,7 @@ function Bills() {
                         <img src="assets/images/Light-bill.jpg" className="bill-img mb-2 w-100" />
                         <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Mahavitaran <br />-Maharas...</p>
                     </Link>
-
                 </div>
-
-
-
-
             </div>
             <div className="row py-2">
                 <div className="icon-box text-center col-3">
@@ -61,7 +53,6 @@ function Bills() {
                         </div>
                         <p style={{ fontSize: '14px', lineHeight: '16px' }} className="mb-0">Mobile<br />Recharge</p>
                     </Link>
-
                 </div>
                 <div className="icon-box text-center col-3">
                     <Link to="/credit-cards" className="text-decoration-none text-dark">

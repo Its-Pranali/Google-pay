@@ -33,12 +33,12 @@
     margin: auto;
 }
 
-.input-container {
+.amount-forms .input-container {
     position: relative;
     margin: 20px 0;
 }
 
-.input-container label {
+.amount-forms .input-container label {
     position: absolute;
     top: -10px;
     left: 12px;
@@ -48,7 +48,7 @@
     color: #555;
 }
 
-.input-container input {
+.amount-forms .input-container input {
     width: 100%;
     padding: 10px 12px;
     font-size: 16px;
@@ -57,7 +57,7 @@
     outline: none;
 }
 
-.input-container input:focus {
+.amount-forms .input-container input:focus {
     border-color: #007bff;
 }
 

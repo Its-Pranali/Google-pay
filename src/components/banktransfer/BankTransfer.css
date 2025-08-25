@@ -1,0 +1,52 @@
+.nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid #0d6efd !important;
+    /* Bootstrap blue */
+    background: transparent;
+}
+
+
+.tab-form .form-group {
+    position: relative;
+}
+
+/* Input styles */
+/* .tab-form .floating-input {
+  
+    font-size: 1rem;
+} */
+
+/* Currency Symbol */
+.tab-form .currency-symbol {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #555;
+    pointer-events: none;
+}
+
+/* Label default (inside input as placeholder) */
+.tab-form .floating-label {
+    position: absolute;
+    left: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+    font-size: 1rem;
+    color: #6c757d;
+    pointer-events: none;
+    background-color: transparent;
+}
+
+/* When focused OR input has value → float label */
+.tab-form .floating-input:focus+.floating-label,
+.tab-form .floating-input:not(:placeholder-shown)+.floating-label {
+    top: 0;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    font-size: 0.75rem;
+    background: white;
+    padding: 0 0.25rem;
+}
