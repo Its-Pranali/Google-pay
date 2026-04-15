@@ -7,7 +7,7 @@ function Recharge() {
     return (
         <>
             <RechargeHeader />
-            <RechargeBanner />
+            <RechargeBanner /> 
             <RechargeFooter />
         </>
 
