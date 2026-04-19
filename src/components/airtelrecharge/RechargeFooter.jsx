@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaChevronDown, FaUniversity, FaCreditCard, FaExternalLinkAlt } from 'react-icons/fa';
-import { MdCreditCard } from 'react-icons/md';
+import { MdCreditCard } from 'react-icons/md'; 
 
 function RechargeFooter() {
     const allBanks = [
