@@ -1,34 +1,10 @@
-/* src/components/BannerPage.css */
-/* ../assets/images/Google-Pay-Banner.png */
-.banner-container {
-    background-image: url('../../../public/assets/images/Google-Pay-Banner.png');
-    background-size: cover;
-    /* background-position: bottom; */
-    width: 100%;
-    padding: 15px 0px;
-    height: 265px !important;
-    position: relative;
+/* src/components/home/Banner.css */
+.promo-card {
+    background: linear-gradient(90deg, #1A73E8 0%, #4285F4 100%);
+    box-shadow: 0 4px 12px rgba(26, 115, 232, 0.2);
 }
 
-.banner-content {
-    width: 90%;
-    z-index: 2;
-    padding: 15px;
-}
-
-.banner-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-
-    z-index: 1;
-}
-
-@media(max-width:425px) {
-    .banner-container {
-        height: 200px;
-    }
+.promo-action button {
+    padding: 6px 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }

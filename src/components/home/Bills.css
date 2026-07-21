@@ -1,19 +1,30 @@
-.bill-img {
-    max-width: 45px;
-    height: 45px;
-    object-fit: contain;
-    border: 1px solid #00000021;
+.biller-icon {
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    border: 1px solid #eee;
 }
 
-.rupiee-icon {
-    left: 19px;
-    top: 18px;
+.biller-icon img {
+    padding: 6px;
 }
 
-.battery-icon {
-    left: 23px;
-    top: 19px;
+.biller-name {
+    font-size: 11px;
+    line-height: 1.2;
+    margin-top: 4px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Limit to 2 lines and show ellipsis */
+.text-truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .bill-icon {

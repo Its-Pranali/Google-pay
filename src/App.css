@@ -6,11 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
- 
+
 .app-container {
   width: 100%;
   max-width: 40%;
-  height:100vh;
+  height: 100vh;
   margin: auto;
 }
 

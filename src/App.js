@@ -1,12 +1,13 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/home/Header';
 import Banner from './components/home/Banner';
 import Scanner from './components/home/Scanner';
+import People from './components/home/People';
 import Bills from './components/home/Bills';
 import Businesses from './components/home/Businesses';
+import MobileFrame from './components/common/MobileFrame';
 import MobileRecharge from './components/mobilerecharge/MobileRecharge';
 import Airtel from './components/airtelview/Airtel';
 import UnlinkNumber from './components/UnlinkNumber';
@@ -32,14 +33,15 @@ import BankTransfer from './components/banktransfer/BankTransfer';
 function App() {
   return (
     <Router>
-      <div className="app-container  position-relative">
+      <MobileFrame>
 
         <Routes>
           <Route path="/" element={
             <>
               <Header />
-              <Banner />
               <Scanner />
+              <People />
+              <Banner />
               <Bills />
               <Businesses />
             </>
@@ -65,7 +67,7 @@ function App() {
           <Route path="/pay-contacts" element={<PayContacts />} />
           <Route path="/bank-transfer" element={<BankTransfer />} />
         </Routes>
-      </div>
+      </MobileFrame>
     </Router>
   );
 }

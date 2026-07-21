@@ -1,25 +1,56 @@
-/* styles.css */
-/* header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-} */
+.gpay-header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+
+.header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  /* Large height for the background cover */
+  background: linear-gradient(180deg, #1A73E8 0%, #4285F4 100%);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  z-index: -1;
+  /* Place behind content */
+}
+
+.header-content {
+  position: relative;
+  padding-top: 20px !important;
+}
+
+.search-bar {
+  height: 36px;
+}
+
+.profile-icon {
+  width: 34px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+.profile-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .custom-placeholder {
   position: absolute;
   left: 48px;
   top: 50%;
   transform: translateY(-50%);
-  color: #999;
+  color: #5f6368;
   pointer-events: none;
   animation: fadeInUp 0.9s ease;
-  font-size: 1rem;
-  opacity: 0.6;
-}
-.banner-header{
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 99;
+  font-size: 0.95rem;
 }
 
 @keyframes fadeInUp {
@@ -27,8 +58,9 @@
     opacity: 0;
     transform: translateY(8px);
   }
+
   to {
-    opacity: 0.6;
+    opacity: 1;
     transform: translateY(-50%);
   }
 }
