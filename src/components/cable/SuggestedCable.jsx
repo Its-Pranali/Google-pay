@@ -1,7 +1,7 @@
 
 
-function SuggestedCable(){
-    return(
+function SuggestedCable() {
+    return (
         <div className="container border-bottom">
             <div className="d-flex justify-content-between alihn-items-center py-2">
                 <h3 className="mb-0" style={{ fontSize: '14px' }}>Suggested</h3>
@@ -10,7 +10,7 @@ function SuggestedCable(){
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Tata-play.png" className="operator-logo w-100" />
+                        <img src="assets/images/Tata-play.png" alt="Tata-play" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -21,7 +21,7 @@ function SuggestedCable(){
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Airtel-logo.png" className="operator-logo w-100" />
+                        <img src="assets/images/Airtel-logo.png" alt="Airtel-logo" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -32,7 +32,7 @@ function SuggestedCable(){
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/D2h.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/D2h.jpg" alt="d2h" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -43,7 +43,7 @@ function SuggestedCable(){
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/sun-direct.png" className="operator-logo w-100" />
+                        <img src="assets/images/sun-direct.png" alt="sun-direct" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -54,7 +54,7 @@ function SuggestedCable(){
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/dishtv.png" className="operator-logo w-100" />
+                        <img src="assets/images/dishtv.png" alt="dish-tv" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">

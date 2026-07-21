@@ -22,7 +22,7 @@ function JioHeader() {
                     </div>
                     <div className="col-9">
                         <div className="d-flex align-items-center">
-                            <img src="assets/images/Jio.png" className="prepaid-logo w-100" />
+                            <img src="assets/images/Jio.png" alt="jio" className="prepaid-logo w-100" />
                             <h3 className="mb-0 px-2" style={{ fontSize: '16px' }}>Jio Prepaid</h3>
                         </div>
 

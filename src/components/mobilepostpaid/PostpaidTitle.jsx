@@ -10,7 +10,7 @@ function PostpaidTitle() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Airtel-logo.png" className="operator-logo w-100" />
+                        <img src="assets/images/Airtel-logo.png" alt="airtel" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -21,7 +21,7 @@ function PostpaidTitle() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/BSNL.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/BSNL.jpg" alt="bsnl" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -32,7 +32,7 @@ function PostpaidTitle() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/MTNL-LOGO.png" className="operator-logo w-100" />
+                        <img src="assets/images/MTNL-LOGO.png" alt="mtnl" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -43,7 +43,7 @@ function PostpaidTitle() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/MTNL.png" className="operator-logo w-100" />
+                        <img src="assets/images/MTNL.png" alt="mtnl" className=" operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -54,7 +54,7 @@ function PostpaidTitle() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/vi.png" className="operator-logo w-100" />
+                        <img src="assets/images/vi.png" alt="vi" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -65,7 +65,7 @@ function PostpaidTitle() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Wiwanet-Solution.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/Wiwanet-Solution.jpg" alt="wiwanet" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -73,7 +73,7 @@ function PostpaidTitle() {
                 </div>
             </div>
 
-            
+
         </div>
     );
 }

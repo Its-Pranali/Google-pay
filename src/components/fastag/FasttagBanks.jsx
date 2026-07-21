@@ -10,7 +10,7 @@ function FasttagBanks() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/AU.png" className="operator-logo w-100" />
+                        <img src="assets/images/AU.png" alt="au" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -21,7 +21,7 @@ function FasttagBanks() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Airtel-bank.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/Airtel-bank.jpg" alt="airtel" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -32,7 +32,7 @@ function FasttagBanks() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Axis-bank.png" className="operator-logo w-100" />
+                        <img src="assets/images/Axis-bank.png" alt="axis" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -43,7 +43,7 @@ function FasttagBanks() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Bajaj_Logo.png" className="operator-logo w-100" />
+                        <img src="assets/images/Bajaj_Logo.png" alt="bajaj" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -54,7 +54,7 @@ function FasttagBanks() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Bandhan-bank.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/Bandhan-bank.jpg" alt="bandhan" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -65,7 +65,7 @@ function FasttagBanks() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Bank-of-maharashtra.png" className="operator-logo w-100" />
+                        <img src="assets/images/Bank-of-maharashtra.png" alt="bank-of-maharashtra" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -76,7 +76,7 @@ function FasttagBanks() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Bank-of-Baroda-icon.png" className="operator-logo w-100" />
+                        <img src="assets/images/Bank-of-Baroda-icon.png" alt="bank-of-baroda" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">

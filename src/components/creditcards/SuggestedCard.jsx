@@ -10,7 +10,7 @@ function SuggestedCard() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/SBI-Card.png" className="operator-logo w-100" />
+                        <img src="assets/images/SBI-Card.png" alt="sbi-card" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -21,7 +21,7 @@ function SuggestedCard() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/HDFC.png" className="operator-logo w-100" />
+                        <img src="assets/images/HDFC.png" alt="hdfc" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -32,7 +32,7 @@ function SuggestedCard() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Axis-bank.png" className="operator-logo w-100" />
+                        <img src="assets/images/Axis-bank.png" alt="axis-bank" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -43,7 +43,7 @@ function SuggestedCard() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/RBL-Bamnk.png" className="operator-logo w-100" />
+                        <img src="assets/images/RBL-Bamnk.png" alt="rbl-bamnk" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -54,7 +54,7 @@ function SuggestedCard() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/ICICI-Bank.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/ICICI-Bank.jpg" alt="icici" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -65,7 +65,7 @@ function SuggestedCard() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Indusind-bank.png" className="operator-logo w-100" />
+                        <img src="assets/images/Indusind-bank.png" alt="indusind" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -76,7 +76,7 @@ function SuggestedCard() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Kotak-Mahindra-Credit-Cards.png" className="operator-logo w-100" />
+                        <img src="assets/images/Kotak-Mahindra-Credit-Cards.png" alt="kotak-mahindra" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">

@@ -41,9 +41,9 @@ function QrScann() {
                             </div>
                             <h2 className="mb-0 px-2" style={{ fontSize: '14px' }}>John</h2>
                         </div>
-                        <img src="/assets/images/Scanner-img.jpg" className="w-100" />
-                        <p className="text-muted text-center mb-0 py-2" style={{fontSize:'10px'}}>Scan to pay with any UPI app</p>
-                        <h3 className="mb-0 text-center" style={{fontSize:'10px'}}>UPI ID: john1000-12@okaxisbank</h3>
+                        <img src="/assets/images/Scanner-img.jpg" alt="scanner" className="w-100" />
+                        <p className="text-muted text-center mb-0 py-2" style={{ fontSize: '10px' }}>Scan to pay with any UPI app</p>
+                        <h3 className="mb-0 text-center" style={{ fontSize: '10px' }}>UPI ID: john1000-12@okaxisbank</h3>
                     </div>
                 </div>
             </div>

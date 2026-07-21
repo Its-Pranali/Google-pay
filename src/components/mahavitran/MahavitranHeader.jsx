@@ -21,7 +21,7 @@ function MahavitranHeader() {
                     </div>
                     <div className="col-9">
                         <div className="d-flex align-items-center">
-                            <img src="assets/images/Light-bill.jpg" className="prepaid-logo w-100" />
+                            <img src="assets/images/Light-bill.jpg" alt="light-bill" className="prepaid-logo w-100" />
                             <div>
                                 <h3 className="mb-0 px-2" style={{ fontSize: '16px' }}>Mahavitran - Maharas...</h3>
                                 <p className="text-muted px-2 mb-0" style={{ fontSize: '12px' }}>Bharat Connect</p>

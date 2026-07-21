@@ -21,7 +21,7 @@ function Supplier() {
                 <div className="d-flex py-2 align-items-center">
                     <div className="">
                         <div class="position-relative">
-                            <img src="assets/images/Light-bill.jpg" className="operator-logo w-100" />
+                            <img src="assets/images/Light-bill.jpg" alt="light-bill" className="operator-logo w-100" />
                         </div>
 
                     </div>
@@ -34,7 +34,7 @@ function Supplier() {
                 <div className="d-flex py-2 align-items-center">
                     <div className="">
                         <div class="position-relative">
-                            <img src="assets/images/adani.png" className="operator-logo w-100" />
+                            <img src="assets/images/adani.png" alt="adani" className="operator-logo w-100" />
                         </div>
 
                     </div>
@@ -47,7 +47,7 @@ function Supplier() {
                 <div className="d-flex py-2 align-items-center">
                     <div className="">
                         <div class="position-relative">
-                            <img src="assets/images/best.jpg" className="operator-logo w-100" />
+                            <img src="assets/images/best.jpg" alt="best" className="operator-logo w-100" />
                         </div>
 
                     </div>
@@ -60,7 +60,7 @@ function Supplier() {
                 <div className="d-flex py-2 align-items-center">
                     <div className="">
                         <div class="position-relative">
-                            <img src="assets/images/tata-power.jpg" className="operator-logo w-100" />
+                            <img src="assets/images/tata-power.jpg" alt="tata" className="operator-logo w-100" />
                         </div>
 
                     </div>
@@ -73,7 +73,7 @@ function Supplier() {
                 <div className="d-flex py-2 align-items-center">
                     <div className="">
                         <div class="position-relative">
-                            <img src="assets/images/torient.png" className="operator-logo w-100 p-1" />
+                            <img src="assets/images/torient.png" alt="torient" className="operator-logo w-100 p-1" />
                         </div>
 
                     </div>
@@ -92,7 +92,7 @@ function Supplier() {
                 <div className="d-flex py-2 align-items-center">
                     <div className="">
                         <div class="position-relative">
-                            <img src="assets/images/adani.png" className="operator-logo w-100" />
+                            <img src="assets/images/adani.png" alt="adani" className="operator-logo w-100" />
                         </div>
 
                     </div>
@@ -105,7 +105,7 @@ function Supplier() {
                 <div className="d-flex py-2 align-items-center">
                     <div className="">
                         <div class="position-relative">
-                            <img src="assets/images/ajmer.png" className="operator-logo w-100" />
+                            <img src="assets/images/ajmer.png" alt="ajmer" className="operator-logo w-100" />
                         </div>
 
                     </div>
@@ -118,7 +118,7 @@ function Supplier() {
                 <div className="d-flex py-2 align-items-center">
                     <div className="">
                         <div class="position-relative">
-                            <img src="assets/images/Andhra_Pradesh_Central_Power_Distribution_Company_Limited.png" className="operator-logo w-100" />
+                            <img src="assets/images/Andhra_Pradesh_Central_Power_Distribution_Company_Limited.png" alt="andhra" className="operator-logo w-100" />
                         </div>
 
                     </div>

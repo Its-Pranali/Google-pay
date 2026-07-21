@@ -10,7 +10,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Network-Broadband.png" className="operator-logo w-100" />
+                        <img src="assets/images/Network-Broadband.png" alt="Network-Broadband" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -21,7 +21,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/ACT-Digital.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/ACT-Digital.jpg" alt="Act-digital" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -32,7 +32,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/All-connect.png" className="operator-logo w-100" />
+                        <img src="assets/images/All-connect.png" alt="All-connect" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -43,7 +43,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/ANI-Network.png" className="operator-logo w-100" />
+                        <img src="assets/images/ANI-Network.png" alt="ANI-Network" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -54,7 +54,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/ANONET.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/ANONET.jpg" alt="ANONET" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -65,7 +65,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/APB-Broadband.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/APB-Broadband.jpg" alt="APB-Broadband" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -76,7 +76,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/AT-broadband.png" className="operator-logo w-100" />
+                        <img src="assets/images/AT-broadband.png" alt="AT-broadband" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -87,7 +87,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/ActiveLine.png" className="operator-logo w-100" />
+                        <img src="assets/images/ActiveLine.png" alt="ActiveLine" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -98,7 +98,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Adaptive-Networks.png" className="operator-logo w-100" />
+                        <img src="assets/images/Adaptive-Networks.png" alt="Adaptive-Networks" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -109,7 +109,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Adigital.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/Adigital.jpg" alt="Adigital" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -120,7 +120,7 @@ function BroadbandServices() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Aeronet-Online-Services.png" className="operator-logo w-100" />
+                        <img src="assets/images/Aeronet-Online-Services.png" alt="Aeronet-Online-Services" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">

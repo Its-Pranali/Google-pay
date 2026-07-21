@@ -10,7 +10,7 @@ function GasProvider() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Bharat Gas (BPCL).jpg" className="operator-logo w-100" />
+                        <img src="assets/images/Bharat Gas (BPCL).jpg" alt="bharat" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -21,7 +21,7 @@ function GasProvider() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Bharat Gas (BPCL) - Commercial.png" className="operator-logo w-100" />
+                        <img src="assets/images/Bharat Gas (BPCL) - Commercial.png" alt="bharat" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -32,7 +32,7 @@ function GasProvider() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/HP.png" className="operator-logo w-100" />
+                        <img src="assets/images/HP.png" alt="hp" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -43,7 +43,7 @@ function GasProvider() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Indane-Gas.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/Indane-Gas.jpg" alt="indane" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">

@@ -19,7 +19,7 @@ function MyRecharges() {
                         >
                             J
                         </div>
-                        <img src="assets/images/Airtel-logo.png" className="suffix-logo w-100" />
+                        <img src="assets/images/Airtel-logo.png" alt="airtel" className="suffix-logo w-100" />
                     </div>
 
                 </div>
@@ -29,7 +29,7 @@ function MyRecharges() {
                 </div>
             </div>
 
-            
+
 
             <div className="d-flex py-3 align-items-center">
                 <div className="">
@@ -40,7 +40,7 @@ function MyRecharges() {
                         >
                             S
                         </div>
-                        <img src="assets/images/Jio.png" className="suffix-logo w-100" />
+                        <img src="assets/images/Jio.png" alt="jio" className="suffix-logo w-100" />
                     </div>
 
                 </div>
@@ -59,7 +59,7 @@ function MyRecharges() {
                         >
                             S
                         </div>
-                        <img src="assets/images/vi.png" className="suffix-logo w-100" />
+                        <img src="assets/images/vi.png" alt="vi" className="suffix-logo w-100" />
                     </div>
 
                 </div>
@@ -78,7 +78,7 @@ function MyRecharges() {
                         >
                             R
                         </div>
-                        <img src="assets/images/Airtel-logo.png" className="suffix-logo w-100" />
+                        <img src="assets/images/Airtel-logo.png" alt="airtel" className="suffix-logo w-100" />
                     </div>
 
                 </div>

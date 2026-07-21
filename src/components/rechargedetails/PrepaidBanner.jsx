@@ -5,7 +5,7 @@ function PrepaidBanner() {
     return (
         <div className="container py-3">
             <div className="text-center">
-                <img src="./assets/images/Airtel-logo.png" className="w-100 banner-pre-logo" />
+                <img src="./assets/images/Airtel-logo.png" alt="airtel-logo" className="w-100 banner-pre-logo" />
                 <h3 className="mb-0 pt-2" style={{ fontSize: '12px' }}>Airtel Prepaid</h3>
                 <h2 className="py-2">₹ 210.90</h2>
                 <button className="rounded-pill recharge-btn border-0 py-2 text-light px-3" style={{ fontSize: '12px' }}>Repeat Reacharge</button>
@@ -18,7 +18,7 @@ function PrepaidBanner() {
                 </div>
                 <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>10 Jul 2025, 1:02 pm</p>
             </div>
-        
+
             <div className="block py-3">
                 <div className="card">
                     <div className="d-flex justify-content-between py-2">
@@ -56,12 +56,12 @@ function PrepaidBanner() {
                             </div>
                         </div>
                         <div className="d-flex align-items-center">
-                            <img src="./assets/images/IDBI.png" className="pay-icon me-2" />
+                            <img src="./assets/images/IDBI.png" alt="idbi" className="pay-icon me-2" />
                             <FaChevronDown size={10} style={{ cursor: 'pointer' }} />
                         </div>
-                        
+
                     </div>
-                    <hr className="my-2"/>
+                    <hr className="my-2" />
                     <div className="d-flex justify-content-between p-2">
                         <div className="d-flex">
                             <FaCheck className="border border-success bg-light rounded-circle text-success mt-2" style={{ padding: '2px' }} size={14} />
@@ -77,11 +77,11 @@ function PrepaidBanner() {
                             <FaCheck className="border border-success bg-light rounded-circle text-success mt-1" style={{ padding: '2px' }} size={14} />
                             <div>
                                 <p className="mb-0 px-2" style={{ fontSize: '12px' }}>Pay intermediary</p>
-                                
+
                             </div>
                         </div>
                     </div>
-                     <div className="d-flex justify-content-between p-2">
+                    <div className="d-flex justify-content-between p-2">
                         <div className="d-flex">
                             <FaCheck className="border border-success bg-light rounded-circle text-success mt-2" style={{ padding: '2px' }} size={14} />
                             <div>
@@ -90,25 +90,25 @@ function PrepaidBanner() {
                             </div>
                         </div>
                     </div>
-                    <hr className="my-2"/>
+                    <hr className="my-2" />
 
                     <div className="p-2">
-                         <p className="mb-0 px-2" style={{ fontSize: '12px' }}>Form</p>
-                         <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>abc123-2@oksbi</p>
+                        <p className="mb-0 px-2" style={{ fontSize: '12px' }}>Form</p>
+                        <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>abc123-2@oksbi</p>
                     </div>
                     <div className="p-2">
-                         <p className="mb-0 px-2" style={{ fontSize: '12px' }}>UPI transaction ID</p>
-                         <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>2435647677678687</p>
-                    </div>
-
-                    <div className="p-2">
-                         <p className="mb-0 px-2" style={{ fontSize: '12px' }}>UPI transaction ID</p>
-                         <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>2435647677678687</p>
+                        <p className="mb-0 px-2" style={{ fontSize: '12px' }}>UPI transaction ID</p>
+                        <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>2435647677678687</p>
                     </div>
 
                     <div className="p-2">
-                         <p className="mb-0 px-2" style={{ fontSize: '12px' }}>Mobile number</p>
-                         <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>9879874345</p>
+                        <p className="mb-0 px-2" style={{ fontSize: '12px' }}>UPI transaction ID</p>
+                        <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>2435647677678687</p>
+                    </div>
+
+                    <div className="p-2">
+                        <p className="mb-0 px-2" style={{ fontSize: '12px' }}>Mobile number</p>
+                        <p className="mb-0 px-2 text-muted" style={{ fontSize: '12px' }}>9879874345</p>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ function LinkedAccount() {
                 <div className="d-flex py-2 align-items-center justify-content-between">
                     <div className="d-flex align-items-center">
                         <div class="position-relative">
-                            <img src="assets/images/Light-bill.jpg" className="operator-logo w-100" />
+                            <img src="assets/images/Light-bill.jpg" alt="light" className="operator-logo w-100" />
                         </div>
                         <div className="px-3">
                             <h2 className="mb-0" style={{ fontSize: '14px' }}>John</h2>

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Form, InputGroup } from 'react-bootstrap';
-import { FaAddressBook,FaUser  } from 'react-icons/fa';
+import { FaAddressBook, FaUser } from 'react-icons/fa';
 import './MobileNumber.css'; // optional for extra styling
 
 function MobileNumber() {
@@ -22,7 +22,7 @@ function MobileNumber() {
                     <div className="d-flex">
                         <InputGroup className="custom-input shadow-sm border">
                             <InputGroup.Text className="bg-white border-0 p-0">
-                                <img src="assets/images/india-flag.jpg" className="w-100 ind-img px-1" />
+                                <img src="assets/images/india-flag.jpg" alt="india-flag" className="w-100 ind-img px-1" />
                                 <span role="img" aria-label="India Flag" style={{ marginRight: '6px' }}></span>
                                 +91
                             </InputGroup.Text>
@@ -43,7 +43,7 @@ function MobileNumber() {
                             <FaUser className="text-primary" />
                         </InputGroup.Text>
                     </div>
-                    <p className="text-muted pt-1" style={{fontSize:'10px'}}>Ensure this is a valid mobile number</p>
+                    <p className="text-muted pt-1" style={{ fontSize: '10px' }}>Ensure this is a valid mobile number</p>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaChevronDown, FaUniversity, FaCreditCard, FaExternalLinkAlt } from 'react-icons/fa';
-import { MdCreditCard } from 'react-icons/md'; 
+import { MdCreditCard } from 'react-icons/md';
 
 function RechargeFooter() {
     const allBanks = [
@@ -113,8 +113,8 @@ function RechargeFooter() {
                         Pay ₹210.90
                     </button>
                     <div className="d-flex align-items-center justify-content-center">
-                        <img src="/assets/images/sbi.jpg" style={{ height: '23px', objectFit: 'cover', borderRight: '1px solid #000' }} className="f-logo w-100 my-3 border-right" />
-                        <img src="/assets/images/UPI.png" style={{ height: '20px', objectFit: 'contain' }} className="f-logo w-100" />
+                        <img src="/assets/images/sbi.jpg" alt="sbi" style={{ height: '23px', objectFit: 'cover', borderRight: '1px solid #000' }} className="f-logo w-100 my-3 border-right" />
+                        <img src="/assets/images/UPI.png" alt="UPI" style={{ height: '20px', objectFit: 'contain' }} className="f-logo w-100" />
                     </div>
                 </div>
             </div>

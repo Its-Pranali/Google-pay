@@ -15,7 +15,7 @@ function ViewChecklist() {
             <div className="d-flex py-2 align-items-center justify-content-between">
                 <div className="d-flex align-items-center">
                     <div class="position-relative">
-                        <img src="assets/images/Light-bill.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/Light-bill.jpg" alt="Light-bill" className="operator-logo w-100" />
                     </div>
                     <div className="px-3">
                         <h2 className="mb-0" style={{ fontSize: '14px' }}>John</h2>
@@ -38,7 +38,7 @@ function ViewChecklist() {
                         >
                             R
                         </div>
-                        <img src="assets/images/Airtel-logo.png" className="suffix-logo w-100" />
+                        <img src="assets/images/Airtel-logo.png" alt="Airtel-logo" className="suffix-logo w-100" />
                     </div>
 
                 </div>
@@ -58,7 +58,7 @@ function ViewChecklist() {
                         >
                             G
                         </div>
-                        <img src="assets/images/Jio.png" className="suffix-logo w-100" />
+                        <img src="assets/images/Jio.png" alt="Jio" className="suffix-logo w-100" />
                     </div>
 
                 </div>
@@ -69,7 +69,7 @@ function ViewChecklist() {
                 </div>
             </div>
 
-            <a href="" className="btn border rounded-pill w-100 text-primary my-3" style={{fontSize:'14px'}}>View all</a>
+            <a href="" className="btn border rounded-pill w-100 text-primary my-3" style={{ fontSize: '14px' }}>View all</a>
         </div>
     );
 }

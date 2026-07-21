@@ -22,7 +22,7 @@ function AirtelHeader() {
                     </div>
                     <div className="col-9">
                         <div className="d-flex align-items-center">
-                            <img src="assets/images/Airtel-logo.png" className="prepaid-logo w-100" />
+                            <img src="assets/images/Airtel-logo.png" alt="Airtel-logo" className="prepaid-logo w-100" />
                             <h3 className="mb-0 px-2" style={{ fontSize: '16px' }}>Airtel Prepaid</h3>
                         </div>
 

@@ -10,7 +10,7 @@ function DTHCableProviders() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/ACT-Digital.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/ACT-Digital.jpg" alt="Act-digital" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -21,7 +21,7 @@ function DTHCableProviders() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Airtel-logo.png" className="operator-logo w-100" />
+                        <img src="assets/images/Airtel-logo.png" alt="Airtel-logo" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -32,7 +32,7 @@ function DTHCableProviders() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Alka Vishwadarshan.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/Alka Vishwadarshan.jpg" alt="Alka" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -43,7 +43,7 @@ function DTHCableProviders() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/amrita-tv-logo.jpg" className="operator-logo w-100" />
+                        <img src="assets/images/amrita-tv-logo.jpg" alt="Amrita-tv" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -54,7 +54,7 @@ function DTHCableProviders() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Angle-Cable.png" className="operator-logo w-100" />
+                        <img src="assets/images/Angle-Cable.png" alt="Angel-Cable" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
@@ -65,7 +65,7 @@ function DTHCableProviders() {
             <div className="d-flex py-2 align-items-center">
                 <div className="">
                     <div class="position-relative">
-                        <img src="assets/images/Aryan-Cable.png" className="operator-logo w-100" />
+                        <img src="assets/images/Aryan-Cable.png" alt="aryan-cable" className="operator-logo w-100" />
                     </div>
                 </div>
                 <div className="px-3">
