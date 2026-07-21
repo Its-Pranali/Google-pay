@@ -29,6 +29,7 @@ import Broadband from './components/broadband/Broadband';
 import MobilePostpaid from './components/mobilepostpaid/MobilePostpaid';
 import PayContacts from './components/paycontacts/PayContacts';
 import BankTransfer from './components/banktransfer/BankTransfer';
+import Footer from './components/home/Footer';
 
 function App() {
   return (
@@ -67,8 +68,11 @@ function App() {
           <Route path="/pay-contacts" element={<PayContacts />} />
           <Route path="/bank-transfer" element={<BankTransfer />} />
         </Routes>
+
+        <Footer />
+
       </MobileFrame>
-    </Router>
+    </Router >
   );
 }
 
